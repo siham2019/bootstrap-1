@@ -1,0 +1,73 @@
+#v a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-right: 3rem;
+}
+body{
+    overflow-x: hidden;
+}
+#v{
+    padding: 0.02rem;
+}
+.ddf{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+.ddf i{
+    margin: 8px;
+    color: white;
+}
+.cf{
+    width: 7rem;
+}
+.h{
+    margin: 5rem;
+}
+#carouselExampleControls{
+    box-shadow: 5px 9px 3px grey;
+}
+.btn{
+    margin: 0.2rem;
+}
+.carousel-caption{
+    height:70%;
+    position: absolute;
+    top: 19%;
+    left: 25%;
+    text-transform: uppercase;
+    border-radius: 1rem;
+
+    background-color: rgba(32, 31, 31, 0.63);
+}
+@media  (max-width: 415px) {
+    .hv h2{
+      font-size: 1rem;
+    }
+  }
+.hv{
+    background-image: url('cv.jpg');
+   background-size: cover;
+   height: 50vh;
+  padding: 4rem;
+
+}
+nav{
+    box-shadow: 1px 4px 3px rgb(209, 202, 202);
+}
+nav,.navbar-brand {
+    font-weight: 600;
+    font-size: 1.5rem !important;
+}
+.navbar-brand img{
+    width: 70px;
+}
+.carousel-item img{
+    height: 80vh;
+}
+.nav-item{
+    padding: 0.4rem;
+}
+.nav-link:hover,.nav-item.active a{
+    color: cadetblue !important;
+}
